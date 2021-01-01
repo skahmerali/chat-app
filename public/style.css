@@ -1,0 +1,96 @@
+/* *{
+    box-sizing: border-box;
+} */
+.logo{
+    display: block;
+    margin: auto;
+    height: 70px;
+    width: 70px;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(0, 0, 0));
+
+}
+.container{
+    border: black 2px solid;
+    height: 60vh;
+    padding: 33px;
+    overflow-y:auto ;
+    max-width: 955px;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+.message{
+/* background-color: rgb(255, 255, 255); */
+width: 24%;
+padding: 10px;
+margin: 17px 10px;
+/* border: 2px solid black;
+border-radius: 15px; */
+}
+.right{
+    float: right;
+    clear: both;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 2px;
+    transform: reverse;
+}
+.left{
+
+    float: left;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+#messageInp{
+width:92%;
+border: 2px solid black;
+border-radius: 15px;
+height: 30px;
+}
+.btn1{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+.btn1:hover{
+    background-color: rgb(255, 136, 0);
+}
+
+
+.label{
+    
+        display: block;
+        margin: auto;
+        text-align: center;
+        max-width: 985px;
+        width: 100%;
+    
+}
+.new{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top:4px ;
+
+}
+.login{
+    width: 250px;
+    border: 2px dotted black;
+    margin: 10%  auto ;
+    /* display: flex; */
+    align-items:center ;
+    text-align: center;
+    
+    
+}
