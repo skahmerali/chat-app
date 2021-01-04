@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div class="login">
-        <form onsubmit="return signup()" class="conatainer">
-        <label  class="label">
-            EMAIL: <br>
-            <input type="email" id="Uemail" class="ILemail">
-        </label>
-        <label class="label">
-
-            PASSWORD:
+        <form onsubmit="return login()" class="container">
+            <label class="label">
+                EMAIL:
+                <br>
+                <input type="email" id="Uemail" class="ILemail">
+            </label>
             <br>
-            <input type="password" id="Upassword" class="ILpassword">
-        </label>
-        <button class="btn1 new">Send</button>
+            <label class="label">
+
+                <br>
+                PASSWORD:
+                <br>
+                <input type="password" id="Upassword" class="ILpassword">
+            </label>
+            <br>
+            <button class="btn1 new">Login</button>
         </form>
     </div>
+    <script src="app.js"></script>
+
+
 </body>
+
+
+
+
 </html>
